@@ -65,7 +65,7 @@ genrule {
         "echo '@Retention(RetentionPolicy.CLASS)' >> $(out) && " +
         "echo '@Target({ElementType.METHOD, ElementType.CONSTRUCTOR})' >> $(out) && " +
         "echo 'public @interface Contract {' >> $(out) && " +
-        "echo '  String value() default "";' >> $(out) && " +
+        "echo '  String value() default \"\";' >> $(out) && " +
         "echo '}' >> $(out)",
     visibility: ["//visibility:private"],
 }
