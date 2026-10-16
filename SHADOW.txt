@@ -1,0 +1,6 @@
+shadow prebuilt repo: nullaway (host)
+  arch package: nullaway_lib v14.0.0_r67-1, Forgejo ag-ci arch repo
+  upstream: external/nullaway
+  api-level: universal (Java plugin host)
+  layout: nullaway_lib-*.pkg.tar.zst at root; sources from external/nullaway; Android.bp providing nullaway_lib & nullaway_plugin
+  date: 2026-10-16
